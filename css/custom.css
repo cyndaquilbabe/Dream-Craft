@@ -1,0 +1,44 @@
+body{
+	background-color: #F9F0C5;
+}
+
+.slogan div{
+	font-size: 5px;
+}
+
+.btn{
+    color: red;
+    text-align: center;
+    background-color: rgba(400,140,2,5);
+    padding: .45em;
+    border-radius:.4em;
+
+}
+
+.wrapper .btn{
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+.blickacrylicbrushes {
+	height: 200;
+	width: 100;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
